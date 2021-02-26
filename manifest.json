@@ -1,0 +1,26 @@
+{
+    "name": "TriggerMe Popup",
+    "version": "1",
+    "description": "This is supposed to annoy me and stop me from procrastinating/wasting my time.",
+    "manifest_version": 2,
+    "author": "RePlex",
+    "permissions": [
+        "tabs",
+        "storage"
+    ],
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "128": "noexclamation.png"
+          }
+    },
+    "icons": {
+       "128": "noexclamation.png" 
+    },
+	"background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    }
+  }
